@@ -1,0 +1,144 @@
+body{background-color: #b8b8ff;
+margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+section.glowa{ 
+    position: fixed; 
+    top: 0%;
+    left: 0%;
+    background-color: #9381ff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 40px;   
+    width: 100%; 
+}
+section.glowa a{
+    text-decoration: none;
+    color: black;
+    background-color: #f8f7ff;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10%;
+}
+section.glowa a:hover{
+    color: cornflowerblue;
+}
+section.glowa a:active{
+    color: rgb(55, 64, 80);
+}
+section.dnia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0spx;
+}
+section.dnia img{
+    height: 200px;
+    width: 90%;
+    border-radius: 10px;}
+section.smiech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+section.smiech img{ 
+height: 200px;
+width: 90%;
+border-radius: 10px;
+}
+section.GOAT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+section.GOAT img{
+    height: 200px;
+    width: 90%;
+    border-radius: 10px;}
+
+    section.bajka {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+       margin-top: 30px;
+       width: 90%;
+    }
+    section.bajka h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.bajka p{
+    background-color:#f8f7ff;
+    overflow: scroll;
+    height: 300px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: nowrap;
+position: sticky;
+    }
+    footer.stopa{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #9381ff;
+        width: 100%;
+        height: 60px;
+    }
+    @media(max-width: 600px){ 
+        .smiech
+        {width: 80%;
+    
+        
+        }
+        .smiech img{
+            height: 800px;
+        }
+       
+    }
+    @media(min-width: 500px){ 
+        .smiech
+        {width: 50%;
+    
+        
+        }
+        .smiech img{
+            height: 800px;
+        }
+       
+    }
+    @media(max-width: 900px){
+        img
+        {width: 700px;}
+    }
+    

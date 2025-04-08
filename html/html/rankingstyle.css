@@ -1,0 +1,64 @@
+*{padding: 0%;
+margin: 0%;
+box-sizing: border-box;}
+body{
+    background-image: url(like.webp);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.glowa{position: absolute;
+margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 20px;
+    border-color: black;
+    border:  3px solid;
+    background-color:blanchedalmond;
+}
+section.glowa ol{
+    margin-top: 25px;
+}
+section.stats{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   border-color: black;
+   font-size: x-small;
+}
+.stats tr,th{
+border: 3px solid black;
+padding: 2px;
+left: 0%;
+background-color: blanchedalmond;
+}
+footer{position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    bottom: 10px;
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 30px;
+    left: 0%;
+
+}
+@media(min-width:500px)
+{
+section.stats{
+    font-size: 15px;
+}
+
+
+
+
+}
+    

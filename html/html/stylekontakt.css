@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{ padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(telephone.webp);
+   
+}
+section{
+
+    background-color: rgba(231, 197, 181, 0.466);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+section label{
+    color: black;
+    background-size: 40%;
+    outline-color: whitesmoke;
+}
+section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form.kon{
+    margin-top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+footer{ position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color:rgba(231, 197, 181, 0.466); 
+width: 100%;
+left: 0%;
+height: 30px;
+    bottom : 10px;
+}
+.bajka img{
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+}
