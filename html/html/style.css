@@ -44,17 +44,7 @@ section.glowa a:hover{
 section.glowa a:active{
     color: rgb(55, 64, 80);
 }
-section.dnia{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 0spx;
-}
-section.dnia img{
-    height: 200px;
-    width: 90%;
-    border-radius: 10px;}
+
 section.smiech{
     display: flex;
     justify-content: center;
@@ -68,17 +58,6 @@ height: 350px;
 width: 90%;
 border-radius: 10px;
 }
-section.GOAT{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 30px;
-}
-section.GOAT img{
-    height: 200px;
-    width: 90%;
-    border-radius: 10px;}
 
     section.bajka {
         display: flex;
@@ -103,7 +82,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 flex-wrap: nowrap;
-position: sticky;
+
     }
     footer.stopa{
         margin-top: 30px;
